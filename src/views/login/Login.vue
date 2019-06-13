@@ -19,6 +19,8 @@
           .phone-input-group
             input(placeholder="Username" v-model="username")
       .footer
+        span Welcome to the non-official test task 4 Lifehacker;)
+        span by Vadim Kushnir aka Vagiz Magdeev
 </template>
 
 <style lang="scss" scoped>
@@ -40,7 +42,7 @@
 
     width: 404px;
     height: 480px;
-    background: chartreuse;
+    // background: chartreuse;
 
     display: flex;
     flex-direction: column;
@@ -51,11 +53,12 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      
 
       .logo {
         height: 100%;
         width: 140px;
-        background: crimson;
+        // background: crimson;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -88,7 +91,7 @@
       .submit {
         height: 100%;
         width: 80px;
-        background: crimson;
+        // background: crimson;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -126,11 +129,12 @@
       justify-content: space-around;
       align-items: center;
       flex-grow: 1;
+      background: #ffffff;
 
       .content {
         width: 274px;
         height: 250px;
-        background: #ffffff;
+        // background: #ffffff;
 
         h3 {
           text-align: left;
@@ -145,7 +149,13 @@
       width: 100%;
       height: 42px;
       margin-top: 25px;
-      background: chocolate;
+      background: #e7f0eb;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      span:nth-child(2) {
+        font-weight: 700;
+      }
     }
   }
 }
